@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		54D8B16823C873B100444E86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8B16723C873B100444E86 /* AppDelegate.swift */; };
-		54D8B16A23C873B100444E86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8B16923C873B100444E86 /* ViewController.swift */; };
+		54D8B16A23C873B100444E86 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8B16923C873B100444E86 /* MainViewController.swift */; };
 		54D8B16D23C873B100444E86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54D8B16B23C873B100444E86 /* Main.storyboard */; };
 		54D8B17023C873B100444E86 /* YuluTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54D8B16E23C873B100444E86 /* YuluTask.xcdatamodeld */; };
 		54D8B17223C873B200444E86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54D8B17123C873B200444E86 /* Assets.xcassets */; };
 		54D8B17523C873B200444E86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54D8B17323C873B200444E86 /* LaunchScreen.storyboard */; };
 		54D8B18023C873B200444E86 /* YuluTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8B17F23C873B200444E86 /* YuluTaskTests.swift */; };
 		54D8B18B23C873B200444E86 /* YuluTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8B18A23C873B200444E86 /* YuluTaskUITests.swift */; };
+		54D8B19C23C8755600444E86 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8B19B23C8755600444E86 /* Constants.swift */; };
+		54D8B19F23C875FB00444E86 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8B19D23C875FB00444E86 /* MainTableViewCell.swift */; };
+		54D8B1A023C875FB00444E86 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54D8B19E23C875FB00444E86 /* MainTableViewCell.xib */; };
+		54D8B1A323C876B800444E86 /* InputData.json in Resources */ = {isa = PBXBuildFile; fileRef = 54D8B1A223C876B800444E86 /* InputData.json */; };
+		54D8B1A523C8775E00444E86 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8B1A423C8775E00444E86 /* MainViewViewModel.swift */; };
+		54D8B1A823C877C800444E86 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8B1A723C877C800444E86 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +43,7 @@
 /* Begin PBXFileReference section */
 		54D8B16423C873B100444E86 /* YuluTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YuluTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D8B16723C873B100444E86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		54D8B16923C873B100444E86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54D8B16923C873B100444E86 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		54D8B16C23C873B100444E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54D8B16F23C873B100444E86 /* YuluTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YuluTask.xcdatamodel; sourceTree = "<group>"; };
 		54D8B17123C873B200444E86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		54D8B18623C873B200444E86 /* YuluTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YuluTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D8B18A23C873B200444E86 /* YuluTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YuluTaskUITests.swift; sourceTree = "<group>"; };
 		54D8B18C23C873B200444E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54D8B19B23C8755600444E86 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		54D8B19D23C875FB00444E86 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		54D8B19E23C875FB00444E86 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		54D8B1A223C876B800444E86 /* InputData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = InputData.json; sourceTree = "<group>"; };
+		54D8B1A423C8775E00444E86 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
+		54D8B1A723C877C800444E86 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +111,9 @@
 		54D8B16623C873B100444E86 /* YuluTask */ = {
 			isa = PBXGroup;
 			children = (
-				54D8B16723C873B100444E86 /* AppDelegate.swift */,
-				54D8B16923C873B100444E86 /* ViewController.swift */,
-				54D8B16B23C873B100444E86 /* Main.storyboard */,
-				54D8B17123C873B200444E86 /* Assets.xcassets */,
-				54D8B17323C873B200444E86 /* LaunchScreen.storyboard */,
-				54D8B17623C873B200444E86 /* Info.plist */,
-				54D8B16E23C873B100444E86 /* YuluTask.xcdatamodeld */,
+				54D8B19923C873DA00444E86 /* Modules */,
+				54D8B19823C873CC00444E86 /* Resources */,
+				54D8B1A123C8763F00444E86 /* DataAndConstants */,
 			);
 			path = YuluTask;
 			sourceTree = "<group>";
@@ -126,6 +134,80 @@
 				54D8B18C23C873B200444E86 /* Info.plist */,
 			);
 			path = YuluTaskUITests;
+			sourceTree = "<group>";
+		};
+		54D8B19823C873CC00444E86 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				54D8B16723C873B100444E86 /* AppDelegate.swift */,
+				54D8B16B23C873B100444E86 /* Main.storyboard */,
+				54D8B17123C873B200444E86 /* Assets.xcassets */,
+				54D8B17323C873B200444E86 /* LaunchScreen.storyboard */,
+				54D8B17623C873B200444E86 /* Info.plist */,
+				54D8B16E23C873B100444E86 /* YuluTask.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		54D8B19923C873DA00444E86 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				54D8B19A23C874EA00444E86 /* MainPageModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		54D8B19A23C874EA00444E86 /* MainPageModule */ = {
+			isa = PBXGroup;
+			children = (
+				54D8B1AA23C886C800444E86 /* Controller */,
+				54D8B1A923C886C200444E86 /* Views */,
+				54D8B1AB23C886D400444E86 /* ViewModel */,
+				54D8B1AC23C886DC00444E86 /* Model */,
+			);
+			path = MainPageModule;
+			sourceTree = "<group>";
+		};
+		54D8B1A123C8763F00444E86 /* DataAndConstants */ = {
+			isa = PBXGroup;
+			children = (
+				54D8B19B23C8755600444E86 /* Constants.swift */,
+				54D8B1A223C876B800444E86 /* InputData.json */,
+			);
+			path = DataAndConstants;
+			sourceTree = "<group>";
+		};
+		54D8B1A923C886C200444E86 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				54D8B19D23C875FB00444E86 /* MainTableViewCell.swift */,
+				54D8B19E23C875FB00444E86 /* MainTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		54D8B1AA23C886C800444E86 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				54D8B16923C873B100444E86 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		54D8B1AB23C886D400444E86 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				54D8B1A423C8775E00444E86 /* MainViewViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		54D8B1AC23C886DC00444E86 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				54D8B1A723C877C800444E86 /* DataModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +314,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54D8B1A323C876B800444E86 /* InputData.json in Resources */,
 				54D8B17523C873B200444E86 /* LaunchScreen.storyboard in Resources */,
 				54D8B17223C873B200444E86 /* Assets.xcassets in Resources */,
+				54D8B1A023C875FB00444E86 /* MainTableViewCell.xib in Resources */,
 				54D8B16D23C873B100444E86 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +343,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54D8B16A23C873B100444E86 /* ViewController.swift in Sources */,
+				54D8B1A823C877C800444E86 /* DataModel.swift in Sources */,
+				54D8B16A23C873B100444E86 /* MainViewController.swift in Sources */,
 				54D8B17023C873B100444E86 /* YuluTask.xcdatamodeld in Sources */,
+				54D8B1A523C8775E00444E86 /* MainViewViewModel.swift in Sources */,
 				54D8B16823C873B100444E86 /* AppDelegate.swift in Sources */,
+				54D8B19C23C8755600444E86 /* Constants.swift in Sources */,
+				54D8B19F23C875FB00444E86 /* MainTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +526,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B6R239HNU9;
-				INFOPLIST_FILE = YuluTask/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/YuluTask/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,7 +544,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B6R239HNU9;
-				INFOPLIST_FILE = YuluTask/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/YuluTask/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
